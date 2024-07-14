@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('***主动脉夹层(AAD)风险预测***')
+st.title('*主动脉夹层(AAD)风险预测*')
 
 # 用户身份验证
 def authenticate():
