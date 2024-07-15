@@ -24,6 +24,9 @@ def main():
     authenticated = authenticate()
     if not authenticated:
         return
+    
+    # 显示加载中
+    with st.spinner("加载中..."):
 
     # 输入患者信息
     st.header("输入患者信息")
